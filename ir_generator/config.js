@@ -305,9 +305,9 @@ const config = {
 		},
 	},
 	devices: {
-		sony_tv: {
+		kpn_box: {
 			extends: 'sony',
-			name: 'sony_tv',
+			name: 'kpn_box',
 			class: 'tv',
 			icon: './assets/remote.svg',
 			images: {

@@ -31,8 +31,8 @@ const config = {
 			id: 'generic_done'
 		}]
 	},
-	id: 'sony_tv',
-	name: 'sony_tv',
+	id: 'kpn_box',
+	name: 'kpn_box',
 	class: 'tv',
 	icon: '../../ir_generator/assets/remote.svg',
 	cmdType: 'tv',
@@ -52,7 +52,7 @@ const config = {
 		channel_down: 'CHANNEL_DOWN'
 	},
 	actions: [{
-		id: 'sony_tv:send_cmd',
+		id: 'kpn_box:send_cmd',
 		title: 'ir_generator.flow.send_cmd',
 		args: [{
 			name: 'cmd',
@@ -60,10 +60,10 @@ const config = {
 		}, {
 			name: 'device',
 			type: 'device',
-			filter: 'driver_id=sony_tv'
+			filter: 'driver_id=kpn_box'
 		}]
 	}, {
-		id: 'sony_tv:send_cmd_number',
+		id: 'kpn_box:send_cmd_number',
 		title: 'ir_generator.flow.send_cmd_number',
 		args: [{
 			name: 'number',
@@ -73,12 +73,12 @@ const config = {
 		}, {
 			name: 'device',
 			type: 'device',
-			filter: 'driver_id=sony_tv'
+			filter: 'driver_id=kpn_box'
 		}]
 	}],
 	driver: '../lib/ir/driver',
 	signalDefinition: {
-		id: 'sony',
+		id: 'kpn',
 		type: 'prontohex',
 		repetitions: 1,
 		options: {

@@ -1,9 +1,9 @@
 {
-  "id": "com.sony.ir",
+  "id": "nl.kpn.ir",
   "name": {
-    "en": "Sony TV IR"
+    "en": "KPN Box IR"
   },
-  "version": "1.1.0",
+  "version": "0.0.1",
   "compatibility": ">=1.5.3",
   "author": {
     "name": "Athom B.V.",
@@ -22,7 +22,7 @@
     "433": {},
     "868": {},
     "ir": {
-      "sony": {
+      "kpn": {
         "type": "prontohex",
         "repetitions": 5,
         "options": {
