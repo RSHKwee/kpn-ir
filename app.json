@@ -1,13 +1,15 @@
 {
   "id": "nl.kpn.ir",
   "name": {
-    "en": "KPN Box IR"
+    "en": "KPN Box Remote control",
+	"nl": "KPN Box Afstandsbediening"
   },
   "version": "0.0.1",
-  "compatibility": ">=1.5.3",
+  "compatibility": ">=2.2.0",
+  "sdk":2,
   "author": {
-    "name": "Athom B.V.",
-    "email": "info@athom.nl"
+    "name": "RSH Kwee",
+    "email": "rsh.kwee@hccnet.nl"
   },
   "description": "This app enables Homey to send IR remote signals to your KPN SetTopBox",
   "category": "video",
