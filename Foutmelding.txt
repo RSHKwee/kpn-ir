@@ -1,0 +1,133 @@
+Microsoft Windows [Version 10.0.18362.535]
+(c) 2019 Microsoft Corporation. Alle rechten voorbehouden.
+
+F:\Users\René>npm install -g homey
+F:\Users\René\AppData\Roaming\npm\homey -> F:\Users\René\AppData\Roaming\npm\node_modules\homey\bin\homey.js
+F:\Users\René\AppData\Roaming\npm\athom -> F:\Users\René\AppData\Roaming\npm\node_modules\homey\bin\athom.js
+F:\Users\René\AppData\Roaming\npm\athom-cli -> F:\Users\René\AppData\Roaming\npm\node_modules\homey\bin\athom-cli.js
++ homey@2.0.4
+updated 1 package in 15.188s
+
+F:\Users\René>homey login
+✓ Logging in...
+To log in with your Athom Account, please visit https://cli.athom.com?port=53128&clientId=5bd33e9b9c99fc4f8d0bc231
+? Paste the code:
+Timeout getting authorization code!
+a2baba0fb62038e6b516cf817721776514d7d088
+? Paste the code:
+Terminate batch job (Y/N)? y
+
+F:\Users\René>homey login
+✓ Logging in...
+To log in with your Athom Account, please visit https://cli.athom.com?port=53156&clientId=5bd33e9b9c99fc4f8d0bc231
+? Paste the code:
+Timeout getting authorization code!
+172032dc9eacd33db0c1174e2d8050b4268e59d1
+
+F:\Users\René>homey login
+✓ Logging in...
+To log in with your Athom Account, please visit https://cli.athom.com?port=53164&clientId=5bd33e9b9c99fc4f8d0bc231
+? Paste the code: 84f2f8e00c07b59c5add93d1eb3bcf4af07e173a
+✓ You are now logged in as René Kwee
+
+F:\Users\René>homey app create
+? What is your app's unique ID? nl.kpn.ir
+? What is your app's name? Afstandsbediening
+? What is your app's description? KPN
+? What is your app's category? video
+? What is your app's version? 0.0.1
+? What is your app's compatibility? >=1.5.0
+? Use standard license for Homey Apps (GPL3)? Yes
+? Seems good? Yes
+✓ App created in `F:\Users\René\nl.kpn.ir`
+
+F:\Users\René>homey app run
+✓ Pre-processing app...
+Could not find a valid Homey App at `F:\Users\René`
+
+F:\Users\René>homey app run nl.kpn.ir
+✓ Pre-processing app...
+Could not find a valid Homey App at `F:\Users\René`
+
+F:\Users\René>homey app create
+? What is your app's unique ID? nl.kpn.ir
+? What is your app's name? Afstandsbediening
+? What is your app's description? Adds support for MyBrand devices.
+? What is your app's category? video
+? What is your app's version? 0.0.1
+? What is your app's compatibility? >=1.5.0
+? Use standard license for Homey Apps (GPL3)? Yes
+? Seems good? Yes
+Path F:\Users\René\nl.kpn.ir already exists
+
+F:\Users\René>homey app create
+? What is your app's unique ID? nl.kpn.ir
+? What is your app's name? Afstandsbediening
+? What is your app's description? KPN
+? What is your app's category? video
+? What is your app's version? 0.0.1
+? What is your app's compatibility? >=1.5.0
+? Use standard license for Homey Apps (GPL3)? Yes
+? Seems good? Yes
+✓ App created in `F:\Users\René\nl.kpn.ir`
+
+F:\Users\René>homey app run
+✓ Pre-processing app...
+Could not find a valid Homey App at `F:\Users\René`
+
+F:\Users\René>cd nl.kpn.ir
+
+F:\Users\René\nl.kpn.ir>homey app run
+✓ Pre-processing app...
+✓ Validating app...
+× Homey App did not validate against level `debug`:
+[
+    {
+        "keyword": "enum",
+        "dataPath": ".flow.actions[1].args[0].type",
+        "schemaPath": "#/properties/args/items/oneOf/0/properties/type/enum",
+        "params": {
+            "allowedValues": [
+                "text",
+                "autocomplete",
+                "device",
+                "date",
+                "time",
+                "color"
+            ]
+        },
+        "message": "should be equal to one of the allowed values"
+    },
+    {
+        "keyword": "type",
+        "dataPath": ".flow.actions[1].args[0].min",
+        "schemaPath": "#/properties/args/items/oneOf/1/properties/min/type",
+        "params": {
+            "type": "number"
+        },
+        "message": "should be number"
+    },
+    {
+        "keyword": "enum",
+        "dataPath": ".flow.actions[1].args[0].type",
+        "schemaPath": "#/properties/args/items/oneOf/2/properties/type/enum",
+        "params": {
+            "allowedValues": [
+                "dropdown"
+            ]
+        },
+        "message": "should be equal to one of the allowed values"
+    },
+    {
+        "keyword": "oneOf",
+        "dataPath": ".flow.actions[1].args[0]",
+        "schemaPath": "#/properties/args/items/oneOf",
+        "params": {
+            "passingSchemas": null
+        },
+        "message": "should match exactly one schema in oneOf"
+    }
+]
+Not installing, please fix the validation issues first
+
+F:\Users\René\nl.kpn.ir>
