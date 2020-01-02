@@ -36,7 +36,8 @@ const config = {
 	class: 'tv',
 	icon: '../../ir_generator/assets/remote.svg',
 	cmdType: 'tv',
-	capabilities: ['onoff',
+	capabilities: [
+		'onoff',
 		'volume_mute',
 		'volume_up',
 		'volume_down',
@@ -44,7 +45,7 @@ const config = {
 		'channel_down'
 	],
 	capabilityToCommandMap: {
-		onoff: ['POWER_ON', 'POWER_OFF', 'POWER_TOGGLE'],
+		onoff: 'POWER_TOGGLE',
 		volume_mute: 'MUTE_TOGGLE',
 		volume_up: 'VOLUME_UP',
 		volume_down: 'VOLUME_DOWN',

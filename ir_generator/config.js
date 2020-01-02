@@ -71,7 +71,7 @@ const config = {
 			cmdType: 'tv',
 			capabilities: ['onoff', 'volume_mute', 'volume_up', 'volume_down', 'channel_up', 'channel_down'],
 			capabilityToCommandMap: {
-				onoff: ['POWER_ON', 'POWER_OFF'],
+				onoff: 'POWER_TOGGLE',
 				volume_mute: 'MUTE_TOGGLE',
 				volume_up: 'VOLUME_UP',
 				volume_down: 'VOLUME_DOWN',
