@@ -46,7 +46,7 @@ module.exports = {
 				'channel_down'
 			],
 			capabilityToCommandMap: {
-				onoff: ['POWER_ON', 'POWER_OFF', 'POWER_TOGGLE'],
+				onoff: 'POWER_TOGGLE',
 				volume_mute: 'MUTE_TOGGLE',
 				volume_up: 'VOLUME_UP',
 				volume_down: 'VOLUME_DOWN',
