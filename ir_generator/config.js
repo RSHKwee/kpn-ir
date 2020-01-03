@@ -6,7 +6,7 @@ const config = {
 			signal: {
 				id: 'kpn',
 				type: 'prontohex',
-				repetitions: 10,
+				repetitions: 75,
 				options: {
 					cmdNumberPrefix: 'DIGIT_',
 					minTxInterval: 250,
