@@ -25,7 +25,7 @@
     "ir": {
       "kpn": {
         "type": "prontohex",
-        "repetitions": 75,
+        "repetitions": 150,
         "options": {
           "cmdNumberPrefix": "DIGIT_",
           "minTxInterval": 5000
