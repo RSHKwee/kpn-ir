@@ -6,4 +6,4 @@ The KPN-IR codes are based on the content of file kpndecoder.lircd.conf, which c
 https://gist.github.com/proycon/d8f730bb47ff6d7eaa12
 
 # Changelog
-0.0.1 Copied from Sony-ir and changes made for KPN Setup box.
+0.0.1 Copied from Sony-ir (https://github.com/athombv/com.sony.ir) and changes made for KPN Setup box.
